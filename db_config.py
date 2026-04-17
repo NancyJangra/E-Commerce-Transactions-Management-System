@@ -1,6 +1,8 @@
+import os
+
 DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'root',          # change to your MySQL user
-    'password': 'Root@1234',  # change to your MySQL password
-    'database': 'ecommerce_db'
+    'host': os.environ.get('DB_HOST', 'localhost'),
+    'user': os.environ.get('DB_USER', 'root'),
+    'password': os.environ.get('DB_PASSWORD'),
+    'database': os.environ.get('DB_NAME', 'ecommerce_db')
 }
