@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+.nav-tabs .nav-link {
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(255,255,255,0.2);
+    margin-right: 8px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 24px;
+    transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: rgba(255,255,255,0.4);
+    transform: translateY(-2px);
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #fff;
+    color: #764ba2;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.table {
+    font-size: 14px;
+}
+
+.table thead th {
+    background-color: #343a40;
+    color: white;
+    border-bottom: none;
+}
+
+.badge {
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.btn-outline-primary {
+    border-radius: 20px;
+    padding: 4px 12px;
+}
+
+.modal-content {
+    border-radius: 20px;
+}
+
+input, select {
+    border-radius: 30px !important;
+    padding: 10px 15px !important;
+}
+
+.btn-dark {
+    border-radius: 30px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    border: none;
+    font-weight: bold;
+}
+
+.btn-dark:hover {
+    background: linear-gradient(90deg, #5a67d8, #6b46a0);
+    transform: scale(1.01);
+}
